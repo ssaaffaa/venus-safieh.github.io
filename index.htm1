@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفيه فرخي | سایت علمی شخصی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>صفيه فرخي</h1>
+        <p>دانشمند و پژوهشگر در حوزه [رشته شما]</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="articles.html">مقالات</a></li>
+            <li><a href="resume.html">رزومه</a></li>
+            <li><a href="contact.html">تماس</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <img src="your-photo.jpg" alt="عکس صفيه فرخي" class="profile-pic">
+            <p>سلام! من ونوس فرخي هستم. در این سایت می‌توانید مقالات، پروژه‌ها و فعالیت‌های علمی من را دنبال کنید.</p>
+        </section>
+
+        <section class="quick-links">
+            <h2>دسترسی سریع</h2>
+            <ul>
+                <li><a href="articles.html">مشاهده مقالات</a></li>
+                <li><a href="resume.html">رزومه علمی</a></li>
+                <li><a href="contact.html">تماس با من</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+      <p>© 2025 صفيه فرخي. همه حقوق محفوظ است.</p>
+    <p>لینک‌های علمی: 
+        <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">ORCID</a> | 
+        <a href="https://scholar.google.com/citations?user=wqd1OXMAAAAJ&hl=en" target="_blank">Google Scholar</a>
+    </p>
+</footer>
+</body>
+</html>
