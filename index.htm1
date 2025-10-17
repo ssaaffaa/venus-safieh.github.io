@@ -1,68 +1,1 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>صفحه اصلی | دکتر ونوس فرخی</title>
-<link rel="stylesheet" href="style.css">
-<style>
-body { font-family:"Vazirmatn",sans-serif; direction:rtl; text-align:justify; background:linear-gradient(180deg,#ffffff 0%,#f6f7fb 100%); color:#222; margin:0; padding:0; }
-header { background-color:#fff; border-bottom:2px solid #e2e2e2; padding:20px; text-align:center; }
-header h1 { color:#6a1b9a; font-size:2em; margin-bottom:5px; }
-header nav a { color:#6a1b9a; text-decoration:none; margin:0 10px; font-weight:bold; }
-header nav a:hover { text-decoration:underline; }
-main { max-width:900px; margin:50px auto; padding:20px; background-color:#fff; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.05); }
-main h2 { color:#4a148c; border-bottom:2px solid #d1c4e9; padding-bottom:10px; margin-bottom:20px; }
-ul { list-style-type:none; padding:0; }
-ul li { margin-bottom:15px; }
-ul li a { text-decoration:none; color:#6a1b9a; font-weight:bold; }
-ul li a:hover { text-decoration:underline; }
-footer { text-align:center; padding:20px; font-size:0.9em; color:#777; margin-top:50px; }
-</style>
-</head>
-<body>
-
-<header>
-  <h1>دکتر ونوس فرخی</h1>
-  <nav>
-    <a href="index.html">خانه</a> |
-    <a href="about.html">درباره من</a> |
-    <a href="contact.html">تماس</a> |
-    <a href="resume.html">رزومه</a> |
-    <a href="science/index.html">Science</a>
-  </nav>
-</header>
-
-<main>
-  <h2>خوش آمدید</h2>
-  <p>سلام! من دکتر ونوس فرخی هستم، پژوهشگر فیزیک دریایی، علاقه‌مند به کوانتوم و زندگی. در این سایت می‌توانید مقالات علمی، پروژه‌ها و نوشته‌های من را دنبال کنید.</p>
-
-  <h2>مقالات چاپ شده</h2>
-  <ul>
-    <li><a href="articles/article1.html">مقاله ۱: شبیه‌سازی عددی جریان‌های دریایی و تغییرات اقلیمی</a></li>
-    <li><a href="articles/article2.html">مقاله ۲: بررسی تغییرپذیری دما و شوری خلیج فارس با مدل‌های عددی</a></li>
-    <li><a href="articles/article3.html">مقاله ۳: تحلیل توفان‌های دریایی با داده‌های ایستگاه‌های ساحلی</a></li>
-    <li><a href="articles/article4.html">مقاله ۴: شبیه‌سازی باد و امواج دریای عمان با مدل SWAN و WRF</a></li>
-    <li><a href="articles/article5.html">مقاله ۵: اثر تغییرات اقلیمی بر جریان‌های سطحی و عمقی</a></li>
-    <li><a href="articles/article6.html">مقاله ۶: کاربرد مدل‌های عددی در پیش‌بینی توفان‌های دریایی</a></li>
-    <li><a href="articles/article7.html">مقاله ۷: بررسی همبستگی بین سرعت باد و ارتفاع موج</a></li>
-    <li><a href="articles/article8.html">مقاله ۸: تحلیل داده‌های اندازه‌گیری دما و شوری در خلیج فارس</a></li>
-    <li><a href="articles/article9.html">مقاله ۹: اثر تغییرات فشار جو بر جریان‌های دریایی</a></li>
-    <li><a href="articles/article10.html">مقاله ۱۰: شبیه‌سازی پیش‌بینی وضعیت دریایی در روزهای توفانی</a></li>
-  </ul>
-
-  <h2>Science</h2>
-  <ul>
-    <li><a href="science/butterfly.html">🦋 اثر پروانه‌ای کوانتومی</a></li>
-    <li><a href="science/photoelectric.html">✨ اثر فوتوالکتریک و زندگی</a></li>
-  </ul>
-
-</main>
-
-<footer>
-  <p>© 2025 دکتر ونوس فرخی | فیزیک و زندگی</p>
-</footer>
-
-</body>
-</html>
 
