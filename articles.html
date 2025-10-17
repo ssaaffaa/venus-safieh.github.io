@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fa">
 <head>
@@ -17,6 +16,28 @@
         h1,h2 { color:#333; }
         li { margin-bottom:10px; }
         footer { background:#f0f0f0; padding:10px 0; text-align:center; color:#555; margin-top:40px; }
+
+        /* CSS برای متن کامل مقاله Medium */
+        .full-article {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+        .full-article h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .full-article p {
+            margin-bottom: 10px;
+        }
+        .full-article img {
+            max-width:100%;
+            height:auto;
+            border-radius:5px;
+            margin-bottom:15px;
+        }
     </style>
 </head>
 <body>
@@ -33,6 +54,7 @@
     </header>
 
     <main>
+        <!-- لیست مقالات علمی -->
         <section>
             <h2>لیست مقالات</h2>
             <ol>
@@ -41,71 +63,80 @@
                     <strong>نویسندگان:</strong> S Dehghan Madiseh, F Esmaily, JG Marammazi, E Koochaknejad, …<br>
                     <strong>سال:</strong> 2012
                 </li>
-
                 <li>
                     <strong>عنوان:</strong> <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">Investigation of physical changes ...</a><br>
                     <strong>نویسندگان:</strong> ونوس فرخی, V Farrokhi<br>
                     <strong>سال:</strong> 2019
                 </li>
-
                 <li>
                     <strong>عنوان:</strong> <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">Investigation Of Climate Change And Its Effect ...</a><br>
                     <strong>نویسندگان:</strong> ونوس فرخی<br>
                     <strong>سال:</strong> 2018
                 </li>
-
                 <li>
                     <strong>عنوان:</strong> <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">Assessment of the physical variations ...</a><br>
                     <strong>نویسندگان:</strong> ونوس فرخی<br>
                     <strong>سال:</strong> 2018
                 </li>
-
                 <li>
                     <strong>عنوان:</strong> <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">The use of computer in mathematics education ...</a><br>
                     <strong>نویسندگان:</strong> ونوس فرخی<br>
                     <strong>سال:</strong> 2017
                 </li>
-
                 <li>
                     <strong>عنوان:</strong> <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">Application of the AMBI ...</a><br>
                     <strong>نویسندگان:</strong> ونوس فرخی<br>
                     <strong>سال:</strong> 2017
                 </li>
-
                 <li>
                     <strong>عنوان:</strong> <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">Assessment of changes in physical and chemical factors ...</a><br>
                     <strong>نویسندگان:</strong> ونوس فرخی<br>
                     <strong>سال:</strong> 2016
                 </li>
-
                 <li>
                     <strong>عنوان:</strong> <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">Fundamentals of principles and objectives of teaching mathematics ...</a><br>
                     <strong>نویسندگان:</strong> ونوس فرخی<br>
                     <strong>سال:</strong> 2016
                 </li>
-
                 <li>
                     <strong>عنوان:</strong> <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">مطالعه تغییرپذیری پارامترهای فیزیکی (دما و شوری) آب‌های خلیج فارس ...</a><br>
                     <strong>نویسندگان:</strong> ونوس فرخی، عباسعلی علی اکبری بیدختی، فرهنگ احمدی گیوی، مجتبی عظام‎<br>
                     <strong>سال:</strong> 1400
                 </li>
-
                 <li>
                     <strong>عنوان:</strong> <a href="https://orcid.org/0009-0007-4583-8084" target="_blank">بررسی و نقش مولفه‌های تأثیرگذار تغییرات اقلیم بر تغییرات فیزیکی ...</a><br>
                     <strong>نویسندگان:</strong> ونوس فرخی، مرید عباس حسنوند‎<br>
                     <strong>سال:</strong> 1394
                 </li>
-<li>
-    <strong>عنوان:</strong> <a href="https://medium.com/@venusfarokhi/photovoltaic-and-flow-of-love-abc123" target="_blank">اثر فوتوالکتریک و جریان عشق در زندگی</a><br>
-    <strong>نویسندگان:</strong> ونوس فرخی<br>
-    <strong>سال:</strong> 2025
-</li>
+                <li>
+                    <strong>عنوان:</strong> <a href="https://medium.com/@venusfarokhi/photovoltaic-and-flow-of-love-abc123" target="_blank">اثر فوتوالکتریک و جریان عشق در زندگی</a><br>
+                    <strong>نویسندگان:</strong> ونوس فرخی<br>
+                    <strong>سال:</strong> 2025
+                </li>
             </ol>
+        </section>
+
+        <!-- متن کامل مقاله Medium با تصویر -->
+        <section id="medium-article">
+            <h2>اثر فوتوالکتریک و جریان عشق در زندگی (متن کامل)</h2>
+            <div class="full-article">
+                <img src="images/photoelectric-love.jpg" alt="اثر فوتوالکتریک و جریان عشق">
+                
+                <p>بسیاری فکر می‌کنند انیشتین به خاطر فرمول E=mc^2 جایزه نوبل گرفت، در حالی که جایزه واقعی او به دلیل اثر فوتوالکتریک بود.</p>
+
+                <p>اثر فوتوالکتریک به زبان ساده این‌گونه است: دوتا الکترود را کنار هم قرار می‌دهند و با تاباندن نور به یکی از صفحه‌ها، جریان الکتریکی ایجاد می‌شود. جریان یعنی حرکت الکترون‌ها، یعنی الکتریسیته جاری شده است.</p>
+
+                <p>برای مثال، فرض کنیم عدد پلانک ۵ باشد. نوری با فرکانس ۱۰ می‌تواند الکترون را جدا کند (چون مضربی از ۵ است)، ولی نوری با فرکانس ۱۰۰۱ نمی‌تواند.</p>
+
+                <p>در زندگی ما هم، هر کاری که بخواهیم جریان و اثر داشته باشد، باید مضربی از عشق باشد. اگر کار یا انرژی مضربی از عشق نداشته باشد، هرچقدر بزرگ هم باشد، نمی‌تواند اثری ایجاد کند.</p>
+
+                <p>این درس اثر فوتوالکتریک و فلسفه آن است: عشق، مثل عدد پلانک، معیار جریان و اثر در زندگی ماست.</p>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2025 ونوس فرخی. همه حقوق محفوظ است.</p>
+        <p>©️ 2025 ونوس فرخی. همه حقوق محفوظ است.</p>
     </footer>
 </body>
 </html>
